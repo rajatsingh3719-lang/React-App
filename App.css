@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  color: #f0f0f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #222;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.blog-form, .blog-card {
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.blog-form input, .blog-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: #fff;
+}
+
+.navbar.light {
+  background: #f4f4f4;
+  color: #111;
+}
+
+.interactive-form {
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.interactive-form input,
+.interactive-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+}
+
+button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #8533ff;
+}
+
+.status {
+  color: #8f8;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-card {
+  width: 80%;
+  margin: 1rem auto;
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+}
